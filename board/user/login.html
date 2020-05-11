@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
+    <link rel="stylesheet" href="../css/style.css"/>
     <style>
         /* 초기화 */
         * {
             margin: 0;
             padding: 0;
+            font: normal 12px '돋움';
         }
 
         ul, ol {list-style: none;}
@@ -24,16 +26,16 @@
         #user.login {
             width: 360px;
             height: auto;
-            margin: 100px auto;
-            border: 1px solid auto;
+            margin: 100px auto;            
         }
         #user.login > form {
             position: relative;
             padding: 20px 20px 20px 50px;
-            border: 1px soid #cfded8;
+            border: 1px solid #cfded8;
             background: #fff;
             border-bottom: 0;
         }
+
         #user.login > form > table {}
         #user.login > form > table img {
             width: 20px;
@@ -44,7 +46,7 @@
             margin: 0 0 5px 0;
             border: 1px solid #e4eaec;
             background: #f7f7f7;
-            color: #111;
+            color: #111;            
         }
         #user.login > form > input[type=submit] {
             position: absolute;
@@ -56,24 +58,22 @@
             border: 1px solid #bebebe;
             background: #fdfdfd;
             color: #111;
-
         }
 
         #user.login > .info {
-            margin: 0 0 30px;
+            margin-bottom: 30px;
             padding: 20px;
             border: 1px solid #cfded8;
             background: #f5f6fa;
+            overflow: hidden;
         }
         #user.login > .info > h3 {}
         #user.login > .info > p {
             padding: 10px 0;
         }
-        #user.login > .info > a{
+        #user.login > .info > a {
             float: right;
         }
-
-
     </style>
 </head>
 <body>
