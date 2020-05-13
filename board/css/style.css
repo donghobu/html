@@ -235,6 +235,9 @@ body {}
 
 #board .btnWrite {padding: 7px; border: 1px solid #3b3c3f; background: #4b545e; color: #fff;}
 #board .btnCancel {padding: 8px; border: 1px solid #bebebe; background: #fdfdfd;}
+#board .btnDelete {padding: 8px; border: 1px solid #bebebe; background: #fdfdfd;}
+#board .btnModify {padding: 8px; border: 1px solid #bebebe; background: #fdfdfd;}
+#board .btnList {padding: 8px; border: 1px solid #bebebe; background: #fdfdfd;}
 
 /* 게시판 - 글목록 */
 #board.list {
@@ -288,6 +291,67 @@ body {}
 }
 
 /* 게시판 - 글보기 */
+#board.view > div {
+    padding: 16px 0;
+    text-align: right;
+}
+
+#board.view > div {
+    padding: 16px 0;
+    text-align: right;
+}
+
+#board.view > section {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    background: #f9f9f9;
+    margin-bottom: 16px;
+}
+#board.view > section > h3 {
+    font-weight: bold;
+}
+#board.view > .commentList {}
+#board.view > .commentList > article {
+    border-top: 1px dotted #999;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#board.view > .commentList > article > span {}
+#board.view > .commentList > article > textarea {
+    width: 100%;
+    height: 60px;
+    padding: 6px;
+    box-sizing: border-box;
+    resize: none;
+    border: 0;
+    background: transparent;
+
+}
+#board.view > .commentList > article > div {
+    text-align: right;
+}
+#board.view > .commentList > article > div > a {}
+#board.view > .commentList > .empty {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#board.view > .commentForm {}
+#board.view > .commentForm > form {}
+#board.view > .commentForm > form > textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e4eaec;
+    margin: 10px 0;
+    resize: none;
+}
+#board.view > .commentForm > form > div {
+    text-align: right;
+}
+#board.view > .commentForm > form > div > a {}
+#board.view > .commentForm > form > div > input[type=submit] {}
+
+
 /* 게시판 - 글쓰기 */
 #board.write {}
 #board.write form > div {
